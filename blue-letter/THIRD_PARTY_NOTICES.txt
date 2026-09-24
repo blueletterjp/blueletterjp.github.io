@@ -1,0 +1,48 @@
+# Third-party notices
+
+## mp4-muxer 5.2.2 (bundled into index.html)
+
+Used to write MP4 files. Source: https://github.com/Vanilagy/mp4-muxer
+
+```
+MIT License
+
+Copyright (c) 2023 Vanilagy
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## Typefaces (not bundled)
+
+The app loads these families at runtime from Google Fonts (https://fonts.google.com/), only when a composition uses them. They are not included in this repository.
+
+- SIL Open Font License 1.1: Noto Sans JP, Zen Kaku Gothic New, Dela Gothic One, RocknRoll One, Mochiy Pop One, Reggae One, Zen Maru Gothic, Shippori Mincho B1, Zen Old Mincho, Noto Serif JP, Hina Mincho, Kaisei Decol, Kaisei Opti, Zen Antique, Klee One, Zen Kurenaido, Yomogi, Yusei Magic, Hachi Maru Pop, Kiwi Maru, Yuji Syuku, Yuji Boku, M PLUS 1 Code, DotGothic16, Courier Prime, Bebas Neue, Pinyon Script, Cormorant Garamond (UI wordmark)
+- SIL Open Font License 1.1, for Korean lyrics: Noto Sans KR, Noto Serif KR, Black Han Sans, Do Hyeon, Jua, Gowun Dodum, Gowun Batang, Nanum Myeongjo, Song Myung, Gaegu, Nanum Pen Script, East Sea Dokdo, Nanum Gothic Coding
+- SIL Open Font License 1.1, for Chinese lyrics: Noto Sans SC, Noto Serif SC, ZCOOL QingKe HuangYou, ZCOOL KuaiLe, ZCOOL XiaoWei, Long Cang, Ma Shan Zheng, Zhi Mang Xing, Noto Sans TC, Noto Serif TC, Huninn, Iansui, Cactus Classical Serif, LXGW WenKai TC
+- Apache License 2.0: Special Elite, Kosugi Maru
+
+## Transformers.js 4.3.0 and Whisper (not bundled)
+
+Used only when someone starts 🎙 聞き取って合わせる (listening to the song to time the lyrics). They are downloaded
+at that moment and run in the browser; the song and lyrics are never sent anywhere.
+
+- Transformers.js (https://github.com/huggingface/transformers.js), loaded from jsDelivr — Apache License 2.0.
+- Whisper speech-recognition models by OpenAI (https://github.com/openai/whisper) — MIT License — in the ONNX
+  conversions published on Hugging Face: onnx-community/whisper-large-v3-turbo(_timestamped) and
+  onnx-community/whisper-small(_timestamped).

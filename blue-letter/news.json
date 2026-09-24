@@ -1,0 +1,261 @@
+{
+  "_help": "お知らせの一覧です。新しいものを items の一番上に足してください。kind は update（アップデート）/ blueletter（Blue Letter のお知らせ）/ info（そのほか）。blueletter の headline は、画面上部の Blue Letter 欄に表示されます。image はこのリポジトリに置いた画像のパス（例: news/single.jpg）だけが使えます。 英語の画面用に title_en / body_en / headline_en / link.label_en を、韓国語は _ko、中国語は _zh-hans（簡体字）/ _zh-hant（繁体字）を足せます（なければ英語、それもなければ日本語を表示します）。",
+  "latest": "1.7.1",
+  "items": [
+    {
+      "id": "2026-09-25-guide",
+      "date": "2026-09-25",
+      "kind": "info",
+      "title": "使い方ガイドをnoteにまとめました",
+      "body": [
+        "はじめての方向けに、Blue Letter の使い方を note にまとめました。画面右上の「ガイド」からも開けます。"
+      ],
+      "link": {
+        "url": "https://note.com/blueletter/n/n784473729440",
+        "label": "note で読む",
+        "label_en": "Read on note",
+        "label_ko": "note에서 읽기",
+        "label_zh-hans": "在 note 上阅读",
+        "label_zh-hant": "在 note 上閱讀"
+      },
+      "title_en": "A how-to guide on note",
+      "body_en": [
+        "A guide to Blue Letter for first-timers is on note (in Japanese). You can also open it from Guide at the top right."
+      ],
+      "title_ko": "사용 가이드를 note에 정리했습니다",
+      "body_ko": [
+        "처음 쓰는 분을 위해 Blue Letter 사용법을 note에 정리했습니다(일본어). 화면 오른쪽 위의 「가이드」에서도 열 수 있습니다."
+      ],
+      "title_zh-hans": "使用指南已整理在 note 上",
+      "body_zh-hans": [
+        "为初次使用的朋友，在 note 上整理了 Blue Letter 的用法（日语）。也可以从画面右上角的“指南”打开。"
+      ],
+      "title_zh-hant": "使用指南已整理在 note 上",
+      "body_zh-hant": [
+        "為初次使用的朋友，在 note 上整理了 Blue Letter 的用法（日文）。也可以從畫面右上角的「指南」開啟。"
+      ]
+    },
+    {
+      "id": "2026-09-24-v1.7.0",
+      "date": "2026-09-24",
+      "kind": "update",
+      "version": "1.7.0",
+      "title": "中国語に対応しました",
+      "body": [
+        "中国語の歌詞をそのまま入れられるようになりました。簡体字と繁体字を見分けて、それぞれに合う中国語のフォントで表示し、単語の途中でカットや改行が入らないようにしています。🎙 聞き取って合わせるも中国語（簡体字・繁体字）で使えます。",
+        "画面上部の 🌐 から、简体中文・繁體中文の表示も選べます。"
+      ],
+      "title_en": "Now in Chinese",
+      "body_en": [
+        "You can now use Chinese lyrics as they are. Simplified and Traditional characters are told apart and drawn in Chinese typefaces that suit each style, and cuts and line breaks never fall inside a word. 🎙 Listen & time works in Chinese (Simplified and Traditional) too.",
+        "The screen can now be shown in 简体中文 or 繁體中文 as well: choose it from 🌐 at the top."
+      ],
+      "title_ko": "중국어를 지원합니다",
+      "body_ko": [
+        "중국어 가사를 그대로 넣을 수 있게 되었습니다. 간체자와 번체자를 구별해 각각에 어울리는 중국어 글꼴로 보여 주고, 단어 중간에서 컷이나 줄바꿈이 들어가지 않도록 했습니다. 🎙 듣고 맞추기도 중국어(간체·번체)로 쓸 수 있습니다.",
+        "화면 위쪽의 🌐에서 简体中文・繁體中文 표시도 고를 수 있습니다."
+      ],
+      "title_zh-hans": "支持中文了",
+      "body_zh-hans": [
+        "现在可以直接输入中文歌词。会自动区分简体字和繁体字，用适合各自风格的中文字体显示，镜头切换和换行也不会落在词语中间。🎙 听写对齐也可以用中文（简体・繁体）。",
+        "在画面上方的 🌐 可以把显示语言切换为简体中文或繁體中文。"
+      ],
+      "title_zh-hant": "支援中文了",
+      "body_zh-hant": [
+        "現在可以直接輸入中文歌詞。會自動區分簡體字和繁體字，用適合各自風格的中文字型顯示，鏡頭切換和換行也不會落在詞語中間。🎙 聽寫對齊也可以用中文（簡體・繁體）。",
+        "在畫面上方的 🌐 可以把顯示語言切換為简体中文或繁體中文。"
+      ]
+    },
+    {
+      "id": "2026-09-24-v1.6.0",
+      "date": "2026-09-24",
+      "kind": "update",
+      "version": "1.6.0",
+      "title": "韓国語に対応しました",
+      "body": [
+        "韓国語の歌詞をそのまま入れられるようになりました。雰囲気に合う韓国語のフォントで表示し、単語の途中でカットや改行が入らないようにしています。🎙 聞き取って合わせるも韓国語で使えます。",
+        "画面上部の 🌐 から、表示する言語を 日本語・English・한국어 から選べます。"
+      ],
+      "title_en": "Now in Korean",
+      "body_en": [
+        "You can now use Korean lyrics as they are. They are drawn in Korean typefaces that suit each style, and cuts and line breaks never fall inside a word. 🎙 Listen & time works in Korean too.",
+        "Choose the language of the screen from 🌐 at the top: 日本語, English or 한국어."
+      ],
+      "title_ko": "한국어를 지원합니다",
+      "body_ko": [
+        "한국어 가사를 그대로 넣을 수 있게 되었습니다. 분위기에 어울리는 한국어 글꼴로 보여 주고, 단어 중간에서 컷이나 줄바꿈이 들어가지 않도록 했습니다. 🎙 듣고 맞추기도 한국어로 쓸 수 있습니다.",
+        "화면 위쪽의 🌐에서 표시 언어를 日本語・English・한국어 중에서 고를 수 있습니다."
+      ],
+      "title_zh-hans": "支持韩语了",
+      "body_zh-hans": [
+        "现在可以直接输入韩语歌词。用适合各自风格的韩语字体显示，镜头切换和换行也不会落在词语中间。🎙 听写对齐也可以用韩语。",
+        "在画面上方的 🌐 可以选择显示语言。"
+      ],
+      "title_zh-hant": "支援韓語了",
+      "body_zh-hant": [
+        "現在可以直接輸入韓語歌詞。用適合各自風格的韓語字型顯示，鏡頭切換和換行也不會落在詞語中間。🎙 聽寫對齊也可以用韓語。",
+        "在畫面上方的 🌐 可以選擇顯示語言。"
+      ]
+    },
+    {
+      "id": "2026-09-24-v1.5.0",
+      "date": "2026-09-24",
+      "kind": "update",
+      "version": "1.5.0",
+      "title": "新機能「ボカロMV風」ができました",
+      "body": [
+        "「文字だけ」のすぐ下の「ボカロMV風」をオンにすると、キャラの画像を大きく見せて、歌詞をテロップや大きな文字で重ねる、ボカロ曲の MV のような見せ方になります。集中線やドット、拍に合わせたズームも入ります。いまの雰囲気と組み合わせられます。",
+        "「キャラ・歌詞・配色をえらぶ」でキャラの画像を追加すると、カットごとに全身・胸から上・顔のアップと写し方を変えながら登場します。歌詞に〔名前〕だけの行を入れると、そこでキャラがカットインします。曲の前奏・間奏・後奏にも自動で入ります。画像はこの端末の中だけで使い、どこにも送りません。"
+      ],
+      "title_en": "New: Vocaloid MV",
+      "body_en": [
+        "Turn on \"Vocaloid MV\", just below Text only, to show your character pictures large with the lyrics over them as subtitles or big type, the way Vocaloid song MVs look, with focus lines, dots and zooms on the beat. It works with any mood.",
+        "Add character pictures under \"Characters, lyrics and colors\": each cut frames them anew (whole figure, bust, close-up). A lyric line of only 〔name〕 cuts in to that character there, and the intro, breaks and outro get the character automatically. Pictures stay on this device and are never sent anywhere."
+      ]
+    },
+    {
+      "id": "2026-09-24-v1.4.0",
+      "date": "2026-09-24",
+      "kind": "update",
+      "version": "1.4.0",
+      "title": "行とタイムラインから歌詞を直せるようにしました",
+      "body": [
+        "「行とカット」の各行にある「✎ 直す」を押すと、その行の歌詞をその場で書き直せます。Enter で確定、Esc で取り消しです。タイムラインの歌詞のカットをダブルクリック（スマホは2回タップ）しても開けます。",
+        "直した行のタイミングや固定は、そのまま残ります。{ルビ|るび}・/・*強調*・※注釈の書き方もそのまま使えます。「歌詞欄で直す」を押すと、歌詞の欄でその行を選んだ状態になります。"
+      ],
+      "title_en": "Edit lyrics from a line or the timeline",
+      "body_en": [
+        "Press \"✎ Edit\" on any line in Lines & cuts to rewrite its words right there. Enter applies, Esc cancels. Double-clicking a lyric cut on the timeline (tapping twice on a phone) opens it too.",
+        "The line keeps its timing and locks. {ruby|reading}, /, *emphasis* and ※notes work as usual. \"Edit in the lyrics box\" selects the line in the lyrics box instead."
+      ]
+    },
+    {
+      "id": "2026-09-24-v1.2.0",
+      "date": "2026-09-24",
+      "kind": "update",
+      "version": "1.2.0",
+      "title": "新機能「聞き取って合わせる」ができました",
+      "body": [
+        "曲を入れて「🎙 聞き取って合わせる」を押すと、AI が歌を聞き取り、歌詞の各行のタイミングを自動で合わせます。歌詞がまだないときは、聞き取った言葉から歌詞を書き起こすこともできます。",
+        "AI はこの端末の中で動くので、曲はどこにも送らず、保存もしません。はじめてのときだけ、AI（無料）をダウンロードします（パソコン 約800MB／スマホ 約400MB）。パソコンのほうが正確に聞き取れます。ずれた行は、タップ合わせや ‹ › で直してください。"
+      ],
+      "title_en": "New: \"Listen & time\"",
+      "body_en": [
+        "Load a song and press \"🎙 Listen & time\": an AI listens to the singing and times each lyric line for you. With no lyrics yet, it can also write down the words it hears.",
+        "The AI runs on this device, so your song is not sent anywhere or stored. The first time only, the free AI is downloaded (about 800 MB on a computer, 400 MB on a phone). A computer hears more accurately. Fix any line that is off with tap timing or ‹ ›."
+      ]
+    },
+    {
+      "id": "2026-09-24-v1.1.5",
+      "date": "2026-09-24",
+      "kind": "update",
+      "version": "1.1.5",
+      "title": "タップでのタイミング合わせを、途中からやり直せるようにしました",
+      "body": [
+        "「タップでタイミング合わせ」で、どの行から始めるかを選べるようになりました。途中の行から始めると、それより前の行のタイミングはそのまま残ります。",
+        "まちがえたら「↶ 1行もどる」で、曲が少し前に戻り、その行から打ち直せます。「ここまで保存」で途中まで残しておくと、次は続きの行から始められます。"
+      ],
+      "title_en": "Tap timing: start from any line, and step back",
+      "body_en": [
+        "\"Tap to time\" now lets you choose the line to start from. Starting part way keeps the timing of the lines before it.",
+        "Missed one? \"↶ Back a line\" takes the song back a little so you can tap that line again. \"Save so far\" keeps what you have, and next time you can go on from there."
+      ]
+    },
+    {
+      "id": "2026-09-24-v1.1.1",
+      "date": "2026-09-24",
+      "kind": "update",
+      "version": "1.1.1",
+      "title": "スマホで使いやすくしました・歌詞を消すボタン",
+      "body": [
+        "スマホでは、「文字だけ（合成用）」と「ランダムで新しい案を作る」を、画面のいちばん上に置きました。",
+        "歌詞の欄に「消す」ボタンを付けました。見本の歌詞を消して、すぐに自分の歌詞を入れられます（読み込んだ曲はそのまま残ります）。"
+      ],
+      "title_en": "Easier on a phone, and a Clear button for lyrics",
+      "body_en": [
+        "On a phone, \"Words only (for compositing)\" and \"New random take\" are now at the very top of the screen.",
+        "The lyrics box has a \"Clear\" button, so you can remove the sample lyrics and type your own right away (a loaded song stays)."
+      ]
+    },
+    {
+      "id": "2026-09-24-v1.1.0",
+      "date": "2026-09-24",
+      "kind": "update",
+      "version": "1.1.0",
+      "title": "新機能「文字だけ（合成用）」ができました",
+      "body": [
+        "「案」タブの一番上に「文字だけ（合成用）」ができました。オンにすると、背景・装飾・画面効果を入れず、文字の動きだけの文字PVを作ります。",
+        "背景は透過になるので、MV や撮った映像、別の作品にそのまま重ねられます（透過は連番 PNG で書き出します。MP4 がほしいときは、書き出しの背景をグリーンバックなどに変えてください）。どの雰囲気・配色とも組み合わせられます。"
+      ],
+      "title_en": "New: \"Words only (for compositing)\"",
+      "body_en": [
+        "\"Words only (for compositing)\" now sits at the top of the Takes tab. Turn it on and the lyric video has no backgrounds, decorations or screen effects — only the moving words.",
+        "The back is transparent, so you can lay the words straight over your music video, your own footage or any other work (transparent exports as a PNG sequence; for an MP4, switch the back to a green screen or another color under Export). It works with every mood and color style."
+      ]
+    },
+    {
+      "id": "2026-09-24-welcome-to-my-blue-world",
+      "date": "2026-09-24",
+      "kind": "blueletter",
+      "title": "新曲「Welcome to My Blue World」配信中",
+      "headline": "新曲「Welcome to My Blue World」配信中",
+      "body": [
+        "Blue Letter の新曲「Welcome to My Blue World」を配信しています。",
+        "このツールの見本にも、この曲のサビを入れました。▶ を押すと、曲に合わせて文字PVが流れます。"
+      ],
+      "link": {
+        "label": "聴いてみる",
+        "url": "https://lit.link/blueletter",
+        "label_en": "Listen"
+      },
+      "title_en": "New single \"Welcome to My Blue World\" out now",
+      "headline_en": "New single \"Welcome to My Blue World\" out now",
+      "body_en": [
+        "Blue Letter's new single \"Welcome to My Blue World\" is out now.",
+        "Its chorus is also the sample in this tool: press ▶ to watch the lyric video follow the song."
+      ]
+    },
+    {
+      "id": "2026-09-24-blueletter",
+      "date": "2026-09-24",
+      "kind": "blueletter",
+      "title": "Blue Letter の音楽と映像",
+      "headline": "届かなかった想いを、音楽と映像に。",
+      "body": [
+        "このツールをつくった Blue Letter は、届かなかった想いを、音楽と映像にしています。",
+        "「やる気は圏外」「Welcome to My Blue World」ほか、曲・映像・SNS はリンク集からどうぞ。"
+      ],
+      "link": {
+        "label": "lit.link で聴いてみる",
+        "url": "https://lit.link/blueletter",
+        "label_en": "Listen on lit.link"
+      },
+      "title_en": "Music and videos by Blue Letter",
+      "headline_en": "Unsent feelings, turned into music and film.",
+      "body_en": [
+        "Blue Letter, who made this tool, turns unsent feelings into music and film.",
+        "Songs like \"Yaruki Is Out of Range\" and \"Welcome to My Blue World\", videos and social links are all on the link page."
+      ]
+    },
+    {
+      "id": "2026-09-24-v1.0.0",
+      "date": "2026-09-24",
+      "kind": "update",
+      "version": "1.0.0",
+      "title": "Blue Letter — lyric motion engine v1.0 を公開しました",
+      "body": [
+        "歌詞を入れるだけで、文字PV（リリックモーション）を自動で組み立てて、MP4 に書き出せます。表現の部品は 775 個です。",
+        "「ランダムで新しい案を作る」で案を作り、気に入ったところは「固定」できます。変えたところだけを、くり返し再生して確かめられます。",
+        "合成用の背景（グリーン・ブルー・黒・白・透過）と、After Effects 用の書き出しに対応しました。",
+        "曲はどこにも保存されません。歌詞と設定も、タブを閉じると消えます。"
+      ],
+      "title_en": "Blue Letter — lyric motion engine v1.0 is out",
+      "body_en": [
+        "Type in lyrics and it builds a lyric video (kinetic typography) and exports it as MP4. There are 775 expression parts.",
+        "Make takes with \"New random take\", lock what you like, and replay just the part you changed.",
+        "Compositing backgrounds (green, blue, black, white, transparent) and an After Effects export are included.",
+        "Your song is never stored anywhere, and lyrics and settings disappear when you close the tab."
+      ]
+    }
+  ]
+}

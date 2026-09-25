@@ -10,6 +10,10 @@ program or any part of it, or use it to make another tool or service.
 Videos, images and other output you make with the app are yours: use them freely,
 commercially or not. The lyrics and songs you use belong to their rights holders.
 
+Blue Letter is based on JIZURA (https://github.com/852wa/JIZURA), Copyright (c) 2026 hakoniwa,
+released under the MIT License. The parts that come from JIZURA follow JIZURA's MIT License; its
+copyright notice and license text are in THIRD_PARTY_NOTICES. The terms above apply to what Blue Letter added.
+
 The sample song and lyrics (sample/) are also (c) 2026 Blue Letter, all rights reserved.
 Third-party software and typefaces keep their own licenses: see THIRD_PARTY_NOTICES.
 
@@ -26,6 +30,10 @@ Blue Letter — lyric motion engine
 
 このアプリで作った動画・画像などの出力物は、作った方のものです。商用・非商用を問わず、
 自由にお使いください。使用した歌詞や曲の権利は、それぞれの権利者に帰属します。
+
+Blue Letter は、JIZURA（https://github.com/852wa/JIZURA、Copyright (c) 2026 hakoniwa、MIT License）を
+元にしています。JIZURA に由来する部分は JIZURA の MIT License に従い、その著作権表示とライセンス文は
+THIRD_PARTY_NOTICES に記載しています。上の条件は、Blue Letter が加えた部分に適用されます。
 
 見本の曲と歌詞（sample/）も © 2026 Blue Letter で、無断転載・再配布はできません。
 ほかの方のソフトウェアと書体は、それぞれのライセンスに従います（THIRD_PARTY_NOTICES）。

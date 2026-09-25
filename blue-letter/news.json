@@ -1,6 +1,7 @@
 {
-  "_help": "お知らせの一覧です。新しいものを items の一番上に足してください。kind は update（アップデート）/ blueletter（Blue Letter のお知らせ）/ info（そのほか）。blueletter の headline は、画面上部の Blue Letter 欄に表示されます。image はこのリポジトリに置いた画像のパス（例: news/single.jpg）だけが使えます。 英語の画面用に title_en / body_en / headline_en / link.label_en を、韓国語は _ko、中国語は _zh-hans（簡体字）/ _zh-hant（繁体字）を足せます（なければ英語、それもなければ日本語を表示します）。",
+  "_help": "お知らせの一覧です。新しいものを items の一番上に足してください。kind は update（アップデート）/ blueletter（Blue Letter のお知らせ）/ info（そのほか）。blueletter の headline は、画面上部の Blue Letter 欄に表示されます。image はこのリポジトリに置いた画像のパス（例: news/single.jpg）だけが使えます。 英語の画面用に title_en / body_en / headline_en / link.label_en を、韓国語は _ko、中国語は _zh-hans（簡体字）/ _zh-hant（繁体字）を足せます（なければ英語、それもなければ日本語を表示します）。 \"promo\": false にすると、画面上部の Blue Letter 欄（新曲の案内）を隠します（消すか true にすると戻ります）。",
   "latest": "1.9.2",
+  "promo": false,
   "season": {
     "name": "halloween",
     "until": "2026-11-01"
@@ -209,7 +210,7 @@
       ],
       "link": {
         "label": "聴いてみる",
-        "url": "https://lit.link/blueletter",
+        "url": "https://linkco.re/tPyUyNRg",
         "label_en": "Listen"
       },
       "title_en": "New single \"Welcome to My Blue World\" out now",

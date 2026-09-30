@@ -1,7 +1,8 @@
 {
-  "_help": "お知らせの一覧です。新しいものを items の一番上に足してください。kind は update（アップデート）/ blueletter（Blue Letter のお知らせ）/ info（そのほか）。blueletter の headline は、画面上部の Blue Letter 欄に表示されます。image はこのリポジトリに置いた画像のパス（例: news/single.jpg）だけが使えます。 英語の画面用に title_en / body_en / headline_en / link.label_en を、韓国語は _ko、中国語は _zh-hans（簡体字）/ _zh-hant（繁体字）を足せます（なければ英語、それもなければ日本語を表示します）。 \"promo\": false にすると、画面上部の Blue Letter 欄（新曲の案内）を隠します（消すか true にすると戻ります）。",
-  "latest": "1.9.2",
+  "_help": "お知らせの一覧です。新しいものを items の一番上に足してください。kind は update（アップデート）/ blueletter（Blue Letter のお知らせ）/ info（そのほか）。blueletter の headline は、画面上部の Blue Letter 欄に表示されます。image はこのリポジトリに置いた画像のパス（例: news/single.jpg）だけが使えます。 英語の画面用に title_en / body_en / headline_en / link.label_en を、韓国語は _ko、中国語は _zh-hans（簡体字）/ _zh-hant（繁体字）を足せます（なければ英語、それもなければ日本語を表示します）。 \"promo\": false にすると、画面上部の Blue Letter 欄（新曲の案内）を隠します（消すか true にすると戻ります）。 \"relay\" は「AI連携」の「インストールせずに使う」の中継の住所です（消すと、そちらは「準備中」になります）。",
+  "latest": "1.10.0",
   "promo": false,
+  "relay": "https://blue-letter-relay.blueletter.workers.dev",
   "season": {
     "name": "halloween",
     "until": "2026-11-01"
